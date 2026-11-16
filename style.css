@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  background: #0db7ed;          /* Docker blue */
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background: white;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.small {
+  color: #666;
+  font-size: 0.85rem;
+}
